@@ -1,0 +1,33 @@
+
+GITHUB LINK:https://github.com/Neha-Kunapalli/CN-assignment
+
+
+
+
+DESCRIPTION OF THE PROGRAM
+
+Here we implemented the concept of Socket programming.Two classes SocketServer and SocketClient are defined.
+In SocketServer class,a socket is created to listen to tat particular port.A datagrampacket is created to receive the data.The server is exited until the server sends the message as bye.Buffer is cleared after every message.
+In the SocketClient class,a socket object is created for carrying the data.A datagram packet is created for sending the data.send method is invoked to actually send the data.The loop does not break until the user sends "bye"
+
+
+STEPS TO INVOKE THE PROGRAM
+
+Open two terminalss one for Server and another for Client
+
+1. First run the Server application as ,
+      $java SocketServer
+    then it will ask to enter the number of input port lines
+    enter the value
+2.Then in another terminal run the Client application as
+      $java SocketClient
+     then it will ask to enter the number of input port lines
+     enter the value
+3.Then enter the messages you want to enter
+
+
+CHALLENGES FACED DURING SOLVING THE ASSIGNMENT
+
+In the begining we could not understand the question properly.
+It will difficult to implement to multiple ports.
+We took help of our classmates and some internet resources to solve the assignment.
