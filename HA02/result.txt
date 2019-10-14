@@ -1,0 +1,26 @@
+ 
+Here is the sample of the output
+
+
+                                                
+
+$ java SocketServer
+Enter the number of input port lines
+3
+Client:-
+Client:-hello
+Client:-cn
+Client:-assignment
+
+
+
+$ java SocketClient
+Enter the number of input port lines
+3
+port number:30027
+hello
+port number:30127
+cn
+port number:30227
+assignment
+port number:30327
